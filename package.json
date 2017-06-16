@@ -1,0 +1,16 @@
+{
+  "name": "saude-sg-es6",
+  "version": "2.0.0",
+  "description": "Projeto Saude.com SG em JavaScript ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel js-es6 -d js"
+  },
+  "author": "Daniel de Caralho",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
